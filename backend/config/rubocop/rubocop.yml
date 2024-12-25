@@ -98,6 +98,7 @@ Metrics/BlockLength:
     - "config/routes/**/*.rb"
     - "*.gemspec"
     - "db/seeds.rb"
+    - "db/queue_schema.rb"
 
 Metrics/CyclomaticComplexity:
   Max: 10

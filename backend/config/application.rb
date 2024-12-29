@@ -21,5 +21,7 @@ module App
     config.i18n.available_locales = [:en, :ja]
 
     config.api_only = true
+
+    config.hosts << '.example.com'
   end
 end

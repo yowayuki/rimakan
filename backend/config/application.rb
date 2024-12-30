@@ -22,6 +22,6 @@ module App
 
     config.api_only = true
 
-    config.hosts << '.example.com'
+    config.hosts << ".example.com"
   end
 end

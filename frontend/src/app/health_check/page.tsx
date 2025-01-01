@@ -5,7 +5,7 @@ import useSWR from 'swr';
 import { fetcher } from '@/utils/fetcher';
 
 const Index: NextPage = () => {
-  const url = 'http://localhost:3000/api/v1/health_check';
+  const url = 'http://127.0.0.1:3000/api/v1/health_check';
   const { data, error } = useSWR(url, fetcher);
 
   if (error) return <div>An error has occurred.</div>;

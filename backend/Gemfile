@@ -57,4 +57,10 @@ group :development, :test do
   gem "rubocop-faker"
   gem "rubocop-rails"
   gem "rubocop-rspec"
+
+  # add rack-cors
+  gem "rack-cors"
+
+  # add config
+  gem "config"
 end

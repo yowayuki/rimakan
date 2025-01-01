@@ -60,4 +60,7 @@ group :development, :test do
 
   # add rack-cors
   gem "rack-cors"
+
+  # add config
+  gem "config"
 end

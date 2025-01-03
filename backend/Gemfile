@@ -63,4 +63,8 @@ group :development, :test do
 
   # add config
   gem "config"
+
+  # add gem for testdata
+  gem "factory_bot_rails"
+  gem "faker"
 end

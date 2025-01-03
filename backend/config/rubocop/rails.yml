@@ -55,6 +55,9 @@ Rails/SaveBang:
 Rails/ShortI18n:
   Enabled: false
 
+Rails/I18nLocaleTexts:
+  Enabled: false
+
 Rails/UnknownEnv:
   Environments:
     - development # rubocop default.yml

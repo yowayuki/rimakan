@@ -43,7 +43,7 @@ RSpec.describe Notification, type: :model do
 
     context "webhookURLが重複する場合" do
       it "エラーメッセージが返却される" do
-        duplicated_record = create(:notification, web_hook_url: notification.web_hook_url)
+        create(:notification, web_hook_url: notification.web_hook_url)
         expect(subject).to be_falsy
         expect(notification.errors[:web_hook_url]).to include("has already been taken")
       end

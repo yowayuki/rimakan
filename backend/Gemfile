@@ -67,4 +67,7 @@ group :development, :test do
   # add gem for testdata
   gem "factory_bot_rails"
   gem "faker"
+
+  #  add gem for serializers
+  gem "active_model_serializers"
 end
